@@ -2,6 +2,6 @@
 
 namespace API {
     public interface ISender {
-        public Task<IActionResult> SendMessage(string message);
+        public Task<IActionResult> SendMessage(string message, string rKey);
     }
 }
