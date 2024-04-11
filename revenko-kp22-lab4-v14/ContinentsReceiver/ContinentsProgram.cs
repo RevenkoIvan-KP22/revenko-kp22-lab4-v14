@@ -4,8 +4,6 @@ using RabbitMQ.Client.Events;
 
 class ContinentsProgram { 
     static void Main(string[] args) {
-        Thread.Sleep(20000);
-
         if (args.Length == 0) {
             Console.WriteLine("Empty args.");
             return;
@@ -34,6 +32,8 @@ class ContinentsProgram {
                     var body = eventArgs.Body.ToArray();
                     var message = Encoding.UTF8.GetString(body);
                     Console.WriteLine($"Received message with routing key {eventArgs.RoutingKey}:\n" + message);
+
+                    channel.BasicAck(eventArgs.DeliveryTag, false);
                 };
 
                 channel.BasicConsume(queue: queueName, autoAck: true, consumer: consumer);
