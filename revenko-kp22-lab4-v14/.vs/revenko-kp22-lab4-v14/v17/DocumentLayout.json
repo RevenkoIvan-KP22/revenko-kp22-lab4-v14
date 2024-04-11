@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A413D03F-FB6A-4314-96BE-E8C5BEAE6193}|OrdersReceiver\\OrdersReceiver.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\ordersreceiver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A413D03F-FB6A-4314-96BE-E8C5BEAE6193}|OrdersReceiver\\OrdersReceiver.csproj|solutionrelative:ordersreceiver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|solutionrelative:api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58518EF8-0CDC-4EA8-AC66-216ECD445557}|ContinentsReceiver\\ContinentsReceiver.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\continentsreceiver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58518EF8-0CDC-4EA8-AC66-216ECD445557}|ContinentsReceiver\\ContinentsReceiver.csproj|solutionrelative:continentsreceiver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A413D03F-FB6A-4314-96BE-E8C5BEAE6193}|OrdersReceiver\\OrdersReceiver.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\ordersreceiver\\ordersprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A413D03F-FB6A-4314-96BE-E8C5BEAE6193}|OrdersReceiver\\OrdersReceiver.csproj|solutionrelative:ordersreceiver\\ordersprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\api\\controllers\\continentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|solutionrelative:api\\controllers\\continentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58518EF8-0CDC-4EA8-AC66-216ECD445557}|ContinentsReceiver\\ContinentsReceiver.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\continentsreceiver\\continentsprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58518EF8-0CDC-4EA8-AC66-216ECD445557}|ContinentsReceiver\\ContinentsReceiver.csproj|solutionrelative:continentsreceiver\\continentsprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,12 +30,38 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\ContinentsReceiver\\Program.cs",
-              "RelativeDocumentMoniker": "ContinentsReceiver\\Program.cs",
-              "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\ContinentsReceiver\\Program.cs",
-              "RelativeToolTip": "ContinentsReceiver\\Program.cs",
+              "DocumentIndex": 2,
+              "Title": "ContinentsController.cs",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\API\\Controllers\\ContinentsController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ContinentsController.cs",
+              "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\API\\Controllers\\ContinentsController.cs",
+              "RelativeToolTip": "API\\Controllers\\ContinentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:01:10.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\API\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\API\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "API\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:00:43.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContinentsProgram.cs",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\ContinentsReceiver\\ContinentsProgram.cs",
+              "RelativeDocumentMoniker": "ContinentsReceiver\\ContinentsProgram.cs",
+              "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\ContinentsReceiver\\ContinentsProgram.cs",
+              "RelativeToolTip": "ContinentsReceiver\\ContinentsProgram.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T07:41:11.902Z",
@@ -35,13 +69,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\OrdersReceiver\\Program.cs",
-              "RelativeDocumentMoniker": "OrdersReceiver\\Program.cs",
-              "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\OrdersReceiver\\Program.cs",
-              "RelativeToolTip": "OrdersReceiver\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "OrdersProgram.cs",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\OrdersReceiver\\OrdersProgram.cs",
+              "RelativeDocumentMoniker": "OrdersReceiver\\OrdersProgram.cs",
+              "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\OrdersReceiver\\OrdersProgram.cs",
+              "RelativeToolTip": "OrdersReceiver\\OrdersProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T07:40:08.581Z",
               "EditorCaption": ""
