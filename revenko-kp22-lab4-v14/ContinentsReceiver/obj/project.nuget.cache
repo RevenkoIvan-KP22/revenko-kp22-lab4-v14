@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "QaKPuSUZYbXYbAOMLsnIfKh0aPqf9w64IBcGrKaA7lhmlp4d2ALjJReO5YYv7+ECBx/7e/FRZ/1oFPUtP4JnLw==",
+  "dgSpecHash": "LfahwKO/dqJjy9AQdF8M61zD3YVpd4YSq42NCIk8Mu3F1NKTEwatFxb4rdonM5qV7pLxewE3zmKVWZ/JFIXQPg==",
   "success": true,
   "projectFilePath": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\ContinentsReceiver\\ContinentsReceiver.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
