@@ -4,8 +4,6 @@ using RabbitMQ.Client;
 using System.Text;
 
 namespace API.Controllers {
-    [Route("api/[controller]")]
-    [ApiController]
     public class ContinentsController : ControllerBase, ISender {
         private readonly IConnectionFactory _connectionFactory;
         private string[] _continents = { "Asia", "Africa", "NA", "SA", "Antarctica", "Europe", "Australia" };
@@ -13,7 +11,7 @@ namespace API.Controllers {
             _connectionFactory = connectionFactory;
         }
 
-        [HttpGet]
+        [HttpGet(Name = "continent.{continent}")]
         public async Task<IActionResult> GetContinent(string continent) {
             try {
                 if (!_continents.Contains(continent)) {

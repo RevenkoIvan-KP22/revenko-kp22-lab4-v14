@@ -5,6 +5,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IConnectionFactory>(service => {
     try {
         var factory = new ConnectionFactory() {
@@ -13,7 +17,7 @@ builder.Services.AddSingleton<IConnectionFactory>(service => {
             UserName = "jason",
             Password = "bourne",
         };
-        factory.Uri = new Uri("amqp://jason:bourne@rabbitmq:5672");
+        factory.Uri = new Uri("amqp://jason:bourne@rabbitmq:5672/");
         return factory;
     }
     catch (Exception ex){
@@ -21,10 +25,6 @@ builder.Services.AddSingleton<IConnectionFactory>(service => {
         throw;
     }
 });
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -33,9 +33,6 @@ if (app.Environment.IsDevelopment()) {
     app.UseSwaggerUI();
 }
 
-
-
-app.UseHttpsRedirection();
 
 app.UseAuthorization();
 

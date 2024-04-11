@@ -4,8 +4,6 @@ using RabbitMQ.Client;
 using System.Text;
 
 namespace API.Controllers {
-    [Route("api/[controller]")]
-    [ApiController]
     public class OrdersController : ControllerBase, ISender {
         private readonly IConnectionFactory _connectionFactory;
         public OrdersController(IConnectionFactory connectionFactory) {
@@ -19,12 +17,12 @@ namespace API.Controllers {
 
         [HttpGet(Name = "order:new")]
         public async Task<IActionResult> GetProcessing() {
-            return await SendMessage("Order is being processed.", "new");
+            return await SendMessage("Order is being processed.", "processing");
         }
 
         [HttpGet(Name = "order:new")]
         public async Task<IActionResult> GetComplete() {
-            return await SendMessage("Order is complete.", "new");
+            return await SendMessage("Order is complete.", "complete");
         }
 
         [HttpGet(Name = "order:cancelled")]

@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\api\\controllers\\continentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|solutionrelative:api\\controllers\\continentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58518EF8-0CDC-4EA8-AC66-216ECD445557}|ContinentsReceiver\\ContinentsReceiver.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\continentsreceiver\\continentsprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58518EF8-0CDC-4EA8-AC66-216ECD445557}|ContinentsReceiver\\ContinentsReceiver.csproj|solutionrelative:continentsreceiver\\continentsprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|solutionrelative:api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A413D03F-FB6A-4314-96BE-E8C5BEAE6193}|OrdersReceiver\\OrdersReceiver.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\ordersreceiver\\ordersprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A413D03F-FB6A-4314-96BE-E8C5BEAE6193}|OrdersReceiver\\OrdersReceiver.csproj|solutionrelative:ordersreceiver\\ordersprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58518EF8-0CDC-4EA8-AC66-216ECD445557}|ContinentsReceiver\\ContinentsReceiver.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\continentsreceiver\\continentsprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58518EF8-0CDC-4EA8-AC66-216ECD445557}|ContinentsReceiver\\ContinentsReceiver.csproj|solutionrelative:continentsreceiver\\continentsprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\api\\controllers\\continentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|solutionrelative:api\\controllers\\continentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\api\\apirunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|solutionrelative:api\\apirunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\api\\isender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|solutionrelative:api\\isender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|solutionrelative:api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58518EF8-0CDC-4EA8-AC66-216ECD445557}|ContinentsReceiver\\ContinentsReceiver.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\continentsreceiver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{58518EF8-0CDC-4EA8-AC66-216ECD445557}|ContinentsReceiver\\ContinentsReceiver.csproj|solutionrelative:continentsreceiver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DC6E1792-0535-4484-B7D7-AEE1D8525178}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41A565FD-61D3-457A-A076-29377ED3FD33}|docker-compose.dcproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{41A565FD-61D3-457A-A076-29377ED3FD33}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A413D03F-FB6A-4314-96BE-E8C5BEAE6193}|OrdersReceiver\\OrdersReceiver.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\ordersreceiver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A413D03F-FB6A-4314-96BE-E8C5BEAE6193}|OrdersReceiver\\OrdersReceiver.csproj|solutionrelative:ordersreceiver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A413D03F-FB6A-4314-96BE-E8C5BEAE6193}|OrdersReceiver\\OrdersReceiver.csproj|d:\\school\\rabbitmq\\revenko-kp22-lab4-v14\\ordersreceiver\\ordersprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A413D03F-FB6A-4314-96BE-E8C5BEAE6193}|OrdersReceiver\\OrdersReceiver.csproj|solutionrelative:ordersreceiver\\ordersprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,41 +50,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ISender.cs",
-              "DocumentMoniker": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\API\\ISender.cs",
-              "RelativeDocumentMoniker": "API\\ISender.cs",
-              "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\API\\ISender.cs",
-              "RelativeToolTip": "API\\ISender.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T08:26:32.57Z"
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\ContinentsReceiver\\Dockerfile",
+              "RelativeDocumentMoniker": "ContinentsReceiver\\Dockerfile",
+              "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\ContinentsReceiver\\Dockerfile",
+              "RelativeToolTip": "ContinentsReceiver\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-11T11:06:00.186Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\API\\Dockerfile",
+              "RelativeDocumentMoniker": "API\\Dockerfile",
+              "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\API\\Dockerfile",
+              "RelativeToolTip": "API\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-11T11:07:04.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "API",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-11T18:30:19.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-04-11T11:10:40.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\OrdersReceiver\\Dockerfile",
+              "RelativeDocumentMoniker": "OrdersReceiver\\Dockerfile",
+              "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\OrdersReceiver\\Dockerfile",
+              "RelativeToolTip": "OrdersReceiver\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-11T17:50:15.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ApiRunner.cs",
               "DocumentMoniker": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\API\\ApiRunner.cs",
               "RelativeDocumentMoniker": "API\\ApiRunner.cs",
               "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\API\\ApiRunner.cs",
               "RelativeToolTip": "API\\ApiRunner.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T08:11:26.465Z"
+              "WhenOpened": "2024-04-11T08:11:26.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ContinentsController.cs",
               "DocumentMoniker": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\API\\Controllers\\ContinentsController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\ContinentsController.cs",
               "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\API\\Controllers\\ContinentsController.cs",
               "RelativeToolTip": "API\\Controllers\\ContinentsController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAqwB8AAABSAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAYwA0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T08:01:10.957Z",
               "EditorCaption": ""
@@ -81,33 +151,33 @@
               "RelativeDocumentMoniker": "API\\Controllers\\OrdersController.cs",
               "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\API\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "API\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA2wDMAAAAkAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAuwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T08:00:43.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ContinentsProgram.cs",
               "DocumentMoniker": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\ContinentsReceiver\\ContinentsProgram.cs",
               "RelativeDocumentMoniker": "ContinentsReceiver\\ContinentsProgram.cs",
               "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\ContinentsReceiver\\ContinentsProgram.cs",
               "RelativeToolTip": "ContinentsReceiver\\ContinentsProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAYwBYAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T07:41:11.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "OrdersProgram.cs",
               "DocumentMoniker": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\OrdersReceiver\\OrdersProgram.cs",
               "RelativeDocumentMoniker": "OrdersReceiver\\OrdersProgram.cs",
               "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\OrdersReceiver\\OrdersProgram.cs",
               "RelativeToolTip": "OrdersReceiver\\OrdersProgram.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACkAAAANAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T07:40:08.581Z",
               "EditorCaption": ""

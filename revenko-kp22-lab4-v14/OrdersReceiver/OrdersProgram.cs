@@ -13,6 +13,10 @@ class OrdersProgram {
 
         string rkey = args[0];
 
+        if (rkey == "cancelled") {
+            rkey = "complete";
+        }
+
         try {
             var factory = new ConnectionFactory() {
                 HostName = "rabbitmq",
@@ -20,7 +24,7 @@ class OrdersProgram {
                 UserName = "jason",
                 Password = "bourne",
             };
-            factory.Uri = new Uri("amqp://jason:bourne@rabbitmq:5672");
+            factory.Uri = new Uri("amqp://jason:bourne@rabbitmq:5672/");
 
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel()) {

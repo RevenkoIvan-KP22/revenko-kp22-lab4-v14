@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LfahwKO/dqJjy9AQdF8M61zD3YVpd4YSq42NCIk8Mu3F1NKTEwatFxb4rdonM5qV7pLxewE3zmKVWZ/JFIXQPg==",
+  "dgSpecHash": "lQaYfHNaP1o1wGFuZSc2w+MiXCM+ZWriRbbxBr8nbCQ1koexIpIixytgTa378Detyf0p8CjpXxIRFo4d7tylLg==",
   "success": true,
   "projectFilePath": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\ContinentsReceiver\\ContinentsReceiver.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
