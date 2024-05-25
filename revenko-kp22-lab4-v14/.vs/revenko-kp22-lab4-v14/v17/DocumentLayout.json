@@ -62,8 +62,7 @@
               "RelativeToolTip": "ContinentsReceiver\\Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-11T11:06:00.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T11:06:00.186Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "API\\Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-11T11:07:04.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T11:07:04.956Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "API\\API.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-11T18:30:19.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T18:30:19.718Z"
             },
             {
               "$type": "Document",
@@ -99,7 +96,7 @@
               "RelativeDocumentMoniker": "docker-compose.yml",
               "ToolTip": "D:\\school\\RabbitMQ\\revenko-kp22-lab4-v14\\docker-compose.yml",
               "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABGAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2024-04-11T11:10:40.179Z",
               "EditorCaption": ""
@@ -114,8 +111,7 @@
               "RelativeToolTip": "OrdersReceiver\\Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-04-11T17:50:15.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T17:50:15.226Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "API\\ApiRunner.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T08:11:26.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T08:11:26.465Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "API\\Controllers\\ContinentsController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T08:01:10.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T08:01:10.957Z"
             },
             {
               "$type": "Document",
@@ -153,8 +147,7 @@
               "RelativeToolTip": "API\\Controllers\\OrdersController.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAuwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T08:00:43.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T08:00:43.251Z"
             },
             {
               "$type": "Document",
@@ -166,8 +159,7 @@
               "RelativeToolTip": "ContinentsReceiver\\ContinentsProgram.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAIwAUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T07:41:11.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T07:41:11.902Z"
             },
             {
               "$type": "Document",
@@ -179,8 +171,7 @@
               "RelativeToolTip": "OrdersReceiver\\OrdersProgram.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAIwAUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T07:40:08.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T07:40:08.581Z"
             }
           ]
         }
