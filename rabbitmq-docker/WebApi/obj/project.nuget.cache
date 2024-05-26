@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FeCZYhHdv6DX0eQ7KelUz2A9vDxn3YnD0X7cN/zTG0vE13Mc/izxUHDJQoUVwe4Aumo1L1ekd6mB+E2dfUkY+A==",
+  "dgSpecHash": "v9yGaeoGkwWLqgQ6BQB5Jw2yAa/z6FuNo+uPitnc+QJhDrF+4dQDmMrTylcMzzp1yGHr9ijkg4rHHXThVTl4kQ==",
   "success": true,
   "projectFilePath": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",

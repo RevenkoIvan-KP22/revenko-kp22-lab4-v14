@@ -1,0 +1,89 @@
+name: dockercompose966094540475532844
+services:
+  africa_receiver:
+    build:
+      context: D:\school\RabbitMQ\rabbitmq-docker\AfricaReceiver
+      dockerfile: Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+        required: true
+    networks:
+      default: null
+    stdin_open: true
+  na_receiver:
+    build:
+      context: D:\school\RabbitMQ\rabbitmq-docker\NorthAmericaReceiver
+      dockerfile: Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+        required: true
+    networks:
+      default: null
+    stdin_open: true
+  rabbitmq:
+    container_name: rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_PASS: bourne
+      RABBITMQ_DEFAULT_USER: jason
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - rabbitmq-diagnostics -q check_running && rabbitmq-diagnostics -q check_local_alarms
+      timeout: 5s
+      interval: 5s
+      retries: 5
+    image: rabbitmq:3-management
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 15672
+        published: "15672"
+        protocol: tcp
+      - mode: ingress
+        target: 5672
+        published: "5672"
+        protocol: tcp
+  webapi:
+    build:
+      context: D:\school\RabbitMQ\rabbitmq-docker\WebApi
+      dockerfile: Dockerfile
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "8080"
+        protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\admin\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\admin\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose966094540475532844_default
