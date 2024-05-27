@@ -33,7 +33,7 @@ namespace Receivers {
           using (var channel = connection.CreateModel()) {
             channel.ExchangeDeclare("Continent", ExchangeType.Topic);
             channel.QueueDeclare(queue, true, false, false);
-            channel.QueueBind(queue: queue, exchange: "Continent", routingKey: $"continent.#");
+            channel.QueueBind(queue: queue, exchange: "Continent", routingKey: $"continent.*");
 
             var Consumer = new EventingBasicConsumer(channel);
             Consumer.Received += (sender, args) => {

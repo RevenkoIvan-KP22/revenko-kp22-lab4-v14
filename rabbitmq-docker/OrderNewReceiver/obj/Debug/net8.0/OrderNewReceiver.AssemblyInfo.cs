@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrderNewReceiver")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a120829fcbd3716055363e3d2ca658851fbb7989")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+512a6d29729295d7dcf79160f93ea98b7c3b841f")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrderNewReceiver")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrderNewReceiver")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
