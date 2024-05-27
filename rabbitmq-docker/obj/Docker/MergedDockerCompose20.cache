@@ -1,108 +1,32 @@
-name: dockercompose1586312482777431315
+name: dockercompose966094540475532844
 services:
-  api:
+  africa_receiver:
     build:
-      context: D:\school\RabbitMQ\revenko-kp22-lab4-v14
-      dockerfile: API/Dockerfile
+      context: D:\school\RabbitMQ\rabbitmq-docker\AfricaReceiver
+      dockerfile: Dockerfile
       args:
         BUILD_CONFIGURATION: Release
       labels:
         com.microsoft.created-by: visual-studio
-        com.microsoft.visual-studio.project-name: API
-    container_name: API
+        com.microsoft.visual-studio.project-name: AfricaReceiver
+    container_name: AfricaReceiver
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+        required: true
     entrypoint:
       - tail
       - -f
       - /dev/null
     labels:
-      com.microsoft.visual-studio.project-name: API
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  "/app/API.dll"'
+      com.microsoft.visual-studio.project-name: AfricaReceiver
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  "/app/AfricaReceiver.dll"'
       com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
     networks:
       default: null
-    ports:
-      - mode: ingress
-        target: 80
-        published: "8000"
-        protocol: tcp
-      - mode: ingress
-        target: 81
-        protocol: tcp
-    tty: true
-    volumes:
-      - type: bind
-        source: C:\Users\admin\vsdbg\vs2017u5
-        target: /remote_debugger
-        bind:
-          create_host_path: true
-      - type: bind
-        source: C:\Users\admin\AppData\Roaming/ASP.NET/Https
-        target: /root/.aspnet/https
-        read_only: true
-        bind:
-          create_host_path: true
-      - type: bind
-        source: C:\Users\admin\AppData\Roaming/ASP.NET/Https
-        target: /home/app/.aspnet/https
-        read_only: true
-        bind:
-          create_host_path: true
-      - type: bind
-        source: C:\Users\admin\AppData\Roaming/Microsoft/UserSecrets
-        target: /root/.microsoft/usersecrets
-        read_only: true
-        bind:
-          create_host_path: true
-      - type: bind
-        source: C:\Users\admin\AppData\Roaming/Microsoft/UserSecrets
-        target: /home/app/.microsoft/usersecrets
-        read_only: true
-        bind:
-          create_host_path: true
-      - type: bind
-        source: D:\programms\visual studio\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\linux-x64\net6.0
-        target: /TokenService.Proxy
-        read_only: true
-        bind:
-          create_host_path: true
-      - type: bind
-        source: D:\programms\visual studio\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\HotReloadProxy\linux-x64\net8.0
-        target: /HotReloadProxy
-        read_only: true
-        bind:
-          create_host_path: true
-      - type: bind
-        source: D:\programms\visual studio\Common7\IDE\CommonExtensions\Microsoft\HotReload
-        target: /HotReloadAgent
-        read_only: true
-        bind:
-          create_host_path: true
-  get1:
-    build:
-      context: D:\school\RabbitMQ\revenko-kp22-lab4-v14
-      dockerfile: OrdersReceiver/Dockerfile
-      args:
-        BUILD_CONFIGURATION: Release
-      labels:
-        com.microsoft.created-by: visual-studio
-        com.microsoft.visual-studio.project-name: OrdersReceiver
-    command:
-      - new
-    container_name: OrdersReceiver
-    entrypoint:
-      - tail
-      - -f
-      - /dev/null
-    labels:
-      com.microsoft.visual-studio.project-name: OrdersReceiver
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  "/app/OrdersReceiver.dll"'
-      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof dotnet); then kill $$PID; fi"
-      com.microsoft.visualstudio.debuggee.program: dotnet
-      com.microsoft.visualstudio.debuggee.workingdirectory: /app
-    networks:
-      default: null
+    stdin_open: true
     tty: true
     volumes:
       - type: bind
@@ -128,30 +52,33 @@ services:
         read_only: true
         bind:
           create_host_path: true
-  get2:
+  complete:
     build:
-      context: D:\school\RabbitMQ\revenko-kp22-lab4-v14
-      dockerfile: OrdersReceiver/Dockerfile
+      context: D:\school\RabbitMQ\rabbitmq-docker\OrderCompleteReceiver
+      dockerfile: Dockerfile
       args:
         BUILD_CONFIGURATION: Release
       labels:
         com.microsoft.created-by: visual-studio
-        com.microsoft.visual-studio.project-name: OrdersReceiver
-    command:
-      - complete
-    container_name: OrdersReceiver_1
+        com.microsoft.visual-studio.project-name: OrderCompleteReceiver
+    container_name: OrderCompleteReceiver
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+        required: true
     entrypoint:
       - tail
       - -f
       - /dev/null
     labels:
-      com.microsoft.visual-studio.project-name: OrdersReceiver
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  "/app/OrdersReceiver.dll"'
+      com.microsoft.visual-studio.project-name: OrderCompleteReceiver
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  "/app/OrderCompleteReceiver.dll"'
       com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
     networks:
       default: null
+    stdin_open: true
     tty: true
     volumes:
       - type: bind
@@ -177,30 +104,33 @@ services:
         read_only: true
         bind:
           create_host_path: true
-  get3:
+  new:
     build:
-      context: D:\school\RabbitMQ\revenko-kp22-lab4-v14
-      dockerfile: OrdersReceiver/Dockerfile
+      context: D:\school\RabbitMQ\rabbitmq-docker\OrderNewReceiver
+      dockerfile: Dockerfile
       args:
         BUILD_CONFIGURATION: Release
       labels:
         com.microsoft.created-by: visual-studio
-        com.microsoft.visual-studio.project-name: OrdersReceiver
-    command:
-      - processing
-    container_name: OrdersReceiver_2
+        com.microsoft.visual-studio.project-name: OrderNewReceiver
+    container_name: OrderNewReceiver
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+        required: true
     entrypoint:
       - tail
       - -f
       - /dev/null
     labels:
-      com.microsoft.visual-studio.project-name: OrdersReceiver
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  "/app/OrdersReceiver.dll"'
+      com.microsoft.visual-studio.project-name: OrderNewReceiver
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  "/app/OrderNewReceiver.dll"'
       com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
     networks:
       default: null
+    stdin_open: true
     tty: true
     volumes:
       - type: bind
@@ -226,30 +156,33 @@ services:
         read_only: true
         bind:
           create_host_path: true
-  get4:
+  processing:
     build:
-      context: D:\school\RabbitMQ\revenko-kp22-lab4-v14
-      dockerfile: ContinentsReceiver/Dockerfile
+      context: D:\school\RabbitMQ\rabbitmq-docker\OrderProcessingReceiver
+      dockerfile: Dockerfile
       args:
         BUILD_CONFIGURATION: Release
       labels:
         com.microsoft.created-by: visual-studio
-        com.microsoft.visual-studio.project-name: ContinentsReceiver
-    command:
-      - NA
-    container_name: ContinentsReceiver
+        com.microsoft.visual-studio.project-name: OrderProcessingReceiver
+    container_name: OrderProcessingReceiver
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+        required: true
     entrypoint:
       - tail
       - -f
       - /dev/null
     labels:
-      com.microsoft.visual-studio.project-name: ContinentsReceiver
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  "/app/ContinentsReceiver.dll"'
+      com.microsoft.visual-studio.project-name: OrderProcessingReceiver
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  "/app/OrderProcessingReceiver.dll"'
       com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
     networks:
       default: null
+    stdin_open: true
     tty: true
     volumes:
       - type: bind
@@ -280,17 +213,114 @@ services:
     environment:
       RABBITMQ_DEFAULT_PASS: bourne
       RABBITMQ_DEFAULT_USER: jason
-    image: rabbitmq:3.13-management
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - rabbitmq-diagnostics -q check_running && rabbitmq-diagnostics -q check_local_alarms
+      timeout: 5s
+      interval: 5s
+      retries: 5
+    image: rabbitmq:3-management
     networks:
       default: null
     ports:
       - mode: ingress
+        target: 15672
+        published: "15672"
+        protocol: tcp
+      - mode: ingress
         target: 5672
         published: "5672"
         protocol: tcp
+  webapi:
+    build:
+      context: D:\school\RabbitMQ\rabbitmq-docker\WebApi
+      dockerfile: Dockerfile
+      args:
+        BUILD_CONFIGURATION: Release
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: WebApi
+    container_name: WebApi
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+        required: true
+    entrypoint:
+      - tail
+      - -f
+      - /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    labels:
+      com.microsoft.visual-studio.project-name: WebApi
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  "/app/WebApi.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      default: null
+    ports:
       - mode: ingress
-        target: 15672
+        target: 8081
+        published: "8081"
         protocol: tcp
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    tty: true
+    volumes:
+      - type: bind
+        source: C:\Users\admin\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\admin\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\admin\vsdbg\vs2017u5
+        target: /remote_debugger
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\admin\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\admin\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: D:\programms\visual studio\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\TokenService.Proxy\linux-x64\net6.0
+        target: /TokenService.Proxy
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: D:\programms\visual studio\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\HotReloadProxy\linux-x64\net8.0
+        target: /HotReloadProxy
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: D:\programms\visual studio\Common7\IDE\CommonExtensions\Microsoft\HotReload
+        target: /HotReloadAgent
+        read_only: true
+        bind:
+          create_host_path: true
 networks:
   default:
-    name: dockercompose1586312482777431315_default
+    name: dockercompose966094540475532844_default

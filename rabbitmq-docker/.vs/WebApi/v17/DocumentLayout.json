@@ -70,8 +70,7 @@
               "RelativeToolTip": "OrderProcessingReceiver\\Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-26T21:58:14.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T21:58:14.462Z"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "OrderCompleteReceiver\\Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-26T21:58:02.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T21:58:02.256Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "OrderNewReceiver\\Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-26T21:50:11.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T21:50:11.402Z"
             },
             {
               "$type": "Document",
@@ -109,8 +106,7 @@
               "RelativeToolTip": "OrderCompleteReceiver\\OrderComplete.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T20:56:46.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T20:56:46.91Z"
             },
             {
               "$type": "Document",
@@ -122,8 +118,7 @@
               "RelativeToolTip": "OrderProcessingReceiver\\OrderProcessing.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T20:54:21.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T20:54:21.611Z"
             },
             {
               "$type": "Document",
@@ -135,8 +130,7 @@
               "RelativeToolTip": "OrderNewReceiver\\OrderNew.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T20:38:02.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T20:38:02.334Z"
             },
             {
               "$type": "Document",
@@ -148,8 +142,7 @@
               "RelativeToolTip": "WebApi\\Services\\Exchanger.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T19:26:18.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T19:26:18.37Z"
             },
             {
               "$type": "Document",
@@ -159,7 +152,7 @@
               "RelativeDocumentMoniker": "WebApi\\Controllers\\OrdersController.cs",
               "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "WebApi\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T19:24:03.689Z",
               "EditorCaption": ""
@@ -174,8 +167,7 @@
               "RelativeToolTip": "WebApi\\Controllers\\ContinentsController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T19:02:21.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T19:02:21.313Z"
             },
             {
               "$type": "Document",
@@ -187,8 +179,7 @@
               "RelativeToolTip": "WebApi\\Models\\Message.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T17:54:37.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T17:54:37.688Z"
             },
             {
               "$type": "Document",
@@ -200,8 +191,7 @@
               "RelativeToolTip": "docker-compose.yml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-05-26T15:36:31.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T15:36:31.161Z"
             },
             {
               "$type": "Document",
@@ -213,8 +203,7 @@
               "RelativeToolTip": "AfricaReceiver\\Africa.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T12:43:38.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-26T12:43:38.496Z"
             }
           ]
         }

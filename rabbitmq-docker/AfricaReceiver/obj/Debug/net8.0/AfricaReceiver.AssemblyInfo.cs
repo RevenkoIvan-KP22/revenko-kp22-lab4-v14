@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AfricaReceiver")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff8b16e92db98314fe69ceddf3ff777619651cb4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a120829fcbd3716055363e3d2ca658851fbb7989")]
 [assembly: System.Reflection.AssemblyProductAttribute("AfricaReceiver")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AfricaReceiver")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
