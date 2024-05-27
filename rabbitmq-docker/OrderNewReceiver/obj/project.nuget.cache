@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "VgfVj/SBpmUIU4TCRnUx0q8HV3O0zsfZVQW9W48+Obaiz7WhzigSqUnWCW9sh78H1IzGDrymSu89S0Jh9of1pA==",
+  "success": true,
+  "projectFilePath": "D:\\school\\RabbitMQ\\rabbitmq-docker\\OrderNewReceiver\\OrderNewReceiver.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

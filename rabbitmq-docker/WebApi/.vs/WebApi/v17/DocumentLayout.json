@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48B86BD8-E715-4259-A497-C07F039BC0F0}|WebApi.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B86BD8-E715-4259-A497-C07F039BC0F0}|WebApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C70370FE-1FD7-40BE-974F-05FBB851032A}|..\\NorthAmerica\\NorthAmericaReceiver.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\northamerica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B86BD8-E715-4259-A497-C07F039BC0F0}|WebApi.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\webapi\\controllers\\continentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B86BD8-E715-4259-A497-C07F039BC0F0}|WebApi.csproj|solutionrelative:controllers\\continentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B86BD8-E715-4259-A497-C07F039BC0F0}|WebApi.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\webapi\\models\\continentssender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B86BD8-E715-4259-A497-C07F039BC0F0}|WebApi.csproj|solutionrelative:models\\continentssender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A8F6D03-F8A5-4D89-A92C-DEAF36F208DE}|..\\AfricaReceiver\\AfricaReceiver.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\africareceiver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContinentsSender.cs",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Models\\ContinentsSender.cs",
+              "RelativeDocumentMoniker": "Models\\ContinentsSender.cs",
+              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Models\\ContinentsSender.cs",
+              "RelativeToolTip": "Models\\ContinentsSender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T23:03:40.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\NorthAmerica\\Program.cs",
+              "RelativeDocumentMoniker": "..\\NorthAmerica\\Program.cs",
+              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\NorthAmerica\\Program.cs",
+              "RelativeToolTip": "..\\NorthAmerica\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAYwAoAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T22:37:11.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\AfricaReceiver\\Program.cs",
+              "RelativeDocumentMoniker": "..\\AfricaReceiver\\Program.cs",
+              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\AfricaReceiver\\Program.cs",
+              "RelativeToolTip": "..\\AfricaReceiver\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T22:35:57.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T22:08:48.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContinentsController.cs",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Controllers\\ContinentsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContinentsController.cs",
+              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Controllers\\ContinentsController.cs",
+              "RelativeToolTip": "Controllers\\ContinentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T22:07:10.166Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

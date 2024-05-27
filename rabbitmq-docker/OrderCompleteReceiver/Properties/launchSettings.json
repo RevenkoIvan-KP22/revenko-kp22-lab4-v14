@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "OrderCompleteReceiver": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
