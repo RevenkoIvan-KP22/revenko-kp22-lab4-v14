@@ -3,44 +3,52 @@
   "WorkspaceRootPath": "D:\\school\\RabbitMQ\\rabbitmq-docker\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{81A99022-2B28-4E47-8679-61FA7AF3D135}|WebApi\\WebApi.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A99022-2B28-4E47-8679-61FA7AF3D135}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FBD4669-CB3F-4A0C-8CB5-2B288B26371E}|AfricaReceiver\\AfricaReceiver.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\africareceiver\\africa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FBD4669-CB3F-4A0C-8CB5-2B288B26371E}|AfricaReceiver\\AfricaReceiver.csproj|solutionrelative:africareceiver\\africa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A99022-2B28-4E47-8679-61FA7AF3D135}|WebApi\\WebApi.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\webapi\\controllers\\continentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A99022-2B28-4E47-8679-61FA7AF3D135}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\continentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F455F1D3-3B20-44FC-832B-BCDFF76263BA}|docker-compose.dcproj|d:\\school\\rabbitmq\\rabbitmq-docker\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F455F1D3-3B20-44FC-832B-BCDFF76263BA}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F455F1D3-3B20-44FC-832B-BCDFF76263BA}|docker-compose.dcproj|d:\\school\\rabbitmq\\rabbitmq-docker\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{F455F1D3-3B20-44FC-832B-BCDFF76263BA}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{677E11AC-E3D1-4148-9033-714D2D5AB9E9}|OrderNewReceiver\\OrderNewReceiver.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\ordernewreceiver\\ordernew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{677E11AC-E3D1-4148-9033-714D2D5AB9E9}|OrderNewReceiver\\OrderNewReceiver.csproj|solutionrelative:ordernewreceiver\\ordernew.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81A99022-2B28-4E47-8679-61FA7AF3D135}|WebApi\\WebApi.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{81A99022-2B28-4E47-8679-61FA7AF3D135}|WebApi\\WebApi.csproj|solutionrelative:webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{7E6B4DBE-8E19-493E-884B-8345F728D6F9}|OrderCompleteReceiver\\OrderCompleteReceiver.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\ordercompletereceiver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7E6B4DBE-8E19-493E-884B-8345F728D6F9}|OrderCompleteReceiver\\OrderCompleteReceiver.csproj|solutionrelative:ordercompletereceiver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81A99022-2B28-4E47-8679-61FA7AF3D135}|WebApi\\WebApi.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81A99022-2B28-4E47-8679-61FA7AF3D135}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81A99022-2B28-4E47-8679-61FA7AF3D135}|WebApi\\WebApi.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\webapi\\services\\exchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A99022-2B28-4E47-8679-61FA7AF3D135}|WebApi\\WebApi.csproj|solutionrelative:webapi\\services\\exchanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81A99022-2B28-4E47-8679-61FA7AF3D135}|WebApi\\WebApi.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\webapi\\webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{81A99022-2B28-4E47-8679-61FA7AF3D135}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{677E11AC-E3D1-4148-9033-714D2D5AB9E9}|OrderNewReceiver\\OrderNewReceiver.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\ordernewreceiver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{677E11AC-E3D1-4148-9033-714D2D5AB9E9}|OrderNewReceiver\\OrderNewReceiver.csproj|solutionrelative:ordernewreceiver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A6B4EC3-EF49-422E-A464-11A13869C72D}|NorthAmericaReceiver\\NorthAmericaReceiver.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\northamericareceiver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A6B4EC3-EF49-422E-A464-11A13869C72D}|NorthAmericaReceiver\\NorthAmericaReceiver.csproj|solutionrelative:northamericareceiver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6D8C2D4-8067-4510-AF39-4C44A41FA75A}|OrderProcessingReceiver\\OrderProcessingReceiver.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\orderprocessingreceiver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C6D8C2D4-8067-4510-AF39-4C44A41FA75A}|OrderProcessingReceiver\\OrderProcessingReceiver.csproj|solutionrelative:orderprocessingreceiver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FBD4669-CB3F-4A0C-8CB5-2B288B26371E}|AfricaReceiver\\AfricaReceiver.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\africareceiver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4FBD4669-CB3F-4A0C-8CB5-2B288B26371E}|AfricaReceiver\\AfricaReceiver.csproj|solutionrelative:africareceiver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E6B4DBE-8E19-493E-884B-8345F728D6F9}|OrderCompleteReceiver\\OrderCompleteReceiver.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\ordercompletereceiver\\ordercomplete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E6B4DBE-8E19-493E-884B-8345F728D6F9}|OrderCompleteReceiver\\OrderCompleteReceiver.csproj|solutionrelative:ordercompletereceiver\\ordercomplete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4FBD4669-CB3F-4A0C-8CB5-2B288B26371E}|AfricaReceiver\\AfricaReceiver.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\africareceiver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{4FBD4669-CB3F-4A0C-8CB5-2B288B26371E}|AfricaReceiver\\AfricaReceiver.csproj|solutionrelative:africareceiver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{C6D8C2D4-8067-4510-AF39-4C44A41FA75A}|OrderProcessingReceiver\\OrderProcessingReceiver.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\orderprocessingreceiver\\orderprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6D8C2D4-8067-4510-AF39-4C44A41FA75A}|OrderProcessingReceiver\\OrderProcessingReceiver.csproj|solutionrelative:orderprocessingreceiver\\orderprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A6B4EC3-EF49-422E-A464-11A13869C72D}|NorthAmericaReceiver\\NorthAmericaReceiver.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\northamericareceiver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{9A6B4EC3-EF49-422E-A464-11A13869C72D}|NorthAmericaReceiver\\NorthAmericaReceiver.csproj|solutionrelative:northamericareceiver\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81A99022-2B28-4E47-8679-61FA7AF3D135}|WebApi\\WebApi.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\webapi\\webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{81A99022-2B28-4E47-8679-61FA7AF3D135}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{81A99022-2B28-4E47-8679-61FA7AF3D135}|WebApi\\WebApi.csproj|d:\\school\\rabbitmq\\rabbitmq-docker\\webapi\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A99022-2B28-4E47-8679-61FA7AF3D135}|WebApi\\WebApi.csproj|solutionrelative:webapi\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,135 +58,162 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "WebApi",
-              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\WebApi.csproj",
-              "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
-              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\WebApi.csproj",
-              "RelativeToolTip": "WebApi\\WebApi.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-26T15:50:23.084Z",
+              "DocumentIndex": 8,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\OrderProcessingReceiver\\Dockerfile",
+              "RelativeDocumentMoniker": "OrderProcessingReceiver\\Dockerfile",
+              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\OrderProcessingReceiver\\Dockerfile",
+              "RelativeToolTip": "OrderProcessingReceiver\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-26T21:58:14.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "docker-compose.override.yml",
-              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\docker-compose.override.yml",
-              "RelativeDocumentMoniker": "docker-compose.override.yml",
-              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\docker-compose.override.yml",
-              "RelativeToolTip": "docker-compose.override.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-05-26T15:43:35.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WebApi.http",
-              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\WebApi.http",
-              "RelativeDocumentMoniker": "WebApi\\WebApi.http",
-              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\WebApi.http",
-              "RelativeToolTip": "WebApi\\WebApi.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-05-26T15:42:58.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-05-26T15:36:31.161Z",
+              "DocumentIndex": 5,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\OrderCompleteReceiver\\Dockerfile",
+              "RelativeDocumentMoniker": "OrderCompleteReceiver\\Dockerfile",
+              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\OrderCompleteReceiver\\Dockerfile",
+              "RelativeToolTip": "OrderCompleteReceiver\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-26T21:58:02.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\AfricaReceiver\\Dockerfile",
-              "RelativeDocumentMoniker": "AfricaReceiver\\Dockerfile",
-              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\AfricaReceiver\\Dockerfile",
-              "RelativeToolTip": "AfricaReceiver\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAMAAAA",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\OrderNewReceiver\\Dockerfile",
+              "RelativeDocumentMoniker": "OrderNewReceiver\\Dockerfile",
+              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\OrderNewReceiver\\Dockerfile",
+              "RelativeToolTip": "OrderNewReceiver\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-26T12:47:59.3Z",
+              "WhenOpened": "2024-05-26T21:50:11.402Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\NorthAmericaReceiver\\Dockerfile",
-              "RelativeDocumentMoniker": "NorthAmericaReceiver\\Dockerfile",
-              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\NorthAmericaReceiver\\Dockerfile",
-              "RelativeToolTip": "NorthAmericaReceiver\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-26T13:37:52.367Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Program.cs",
-              "RelativeDocumentMoniker": "WebApi\\Program.cs",
-              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Program.cs",
-              "RelativeToolTip": "WebApi\\Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAApwCoAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "OrderComplete.cs",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\OrderCompleteReceiver\\OrderComplete.cs",
+              "RelativeDocumentMoniker": "OrderCompleteReceiver\\OrderComplete.cs",
+              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\OrderCompleteReceiver\\OrderComplete.cs",
+              "RelativeToolTip": "OrderCompleteReceiver\\OrderComplete.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T13:09:59.368Z",
+              "WhenOpened": "2024-05-26T20:56:46.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\NorthAmericaReceiver\\Program.cs",
-              "RelativeDocumentMoniker": "NorthAmericaReceiver\\Program.cs",
-              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\NorthAmericaReceiver\\Program.cs",
-              "RelativeToolTip": "NorthAmericaReceiver\\Program.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAYwCkAAAAJAAAA",
+              "DocumentIndex": 10,
+              "Title": "OrderProcessing.cs",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\OrderProcessingReceiver\\OrderProcessing.cs",
+              "RelativeDocumentMoniker": "OrderProcessingReceiver\\OrderProcessing.cs",
+              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\OrderProcessingReceiver\\OrderProcessing.cs",
+              "RelativeToolTip": "OrderProcessingReceiver\\OrderProcessing.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T13:09:54.541Z",
+              "WhenOpened": "2024-05-26T20:54:21.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderNew.cs",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\OrderNewReceiver\\OrderNew.cs",
+              "RelativeDocumentMoniker": "OrderNewReceiver\\OrderNew.cs",
+              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\OrderNewReceiver\\OrderNew.cs",
+              "RelativeToolTip": "OrderNewReceiver\\OrderNew.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T20:38:02.334Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\AfricaReceiver\\Program.cs",
-              "RelativeDocumentMoniker": "AfricaReceiver\\Program.cs",
-              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\AfricaReceiver\\Program.cs",
-              "RelativeToolTip": "AfricaReceiver\\Program.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAYwBQAAAAsAAAA",
+              "Title": "Exchanger.cs",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Services\\Exchanger.cs",
+              "RelativeDocumentMoniker": "WebApi\\Services\\Exchanger.cs",
+              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Services\\Exchanger.cs",
+              "RelativeToolTip": "WebApi\\Services\\Exchanger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T12:43:38.496Z",
+              "WhenOpened": "2024-05-26T19:26:18.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T19:24:03.689Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Dockerfile",
-              "RelativeDocumentMoniker": "WebApi\\Dockerfile",
-              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Dockerfile",
-              "RelativeToolTip": "WebApi\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-26T12:48:27.79Z",
+              "Title": "ContinentsController.cs",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Controllers\\ContinentsController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\ContinentsController.cs",
+              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Controllers\\ContinentsController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\ContinentsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T19:02:21.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Message.cs",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "WebApi\\Models\\Message.cs",
+              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\WebApi\\Models\\Message.cs",
+              "RelativeToolTip": "WebApi\\Models\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T17:54:37.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-05-26T15:36:31.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Africa.cs",
+              "DocumentMoniker": "D:\\school\\RabbitMQ\\rabbitmq-docker\\AfricaReceiver\\Africa.cs",
+              "RelativeDocumentMoniker": "AfricaReceiver\\Africa.cs",
+              "ToolTip": "D:\\school\\RabbitMQ\\rabbitmq-docker\\AfricaReceiver\\Africa.cs",
+              "RelativeToolTip": "AfricaReceiver\\Africa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:43:38.496Z",
               "EditorCaption": ""
             }
           ]

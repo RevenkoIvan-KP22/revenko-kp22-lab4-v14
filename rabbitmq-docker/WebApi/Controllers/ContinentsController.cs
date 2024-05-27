@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RabbitMQ.Client;
 using System.Text;
+using WebApi.Models;
+using WebApi.Services;
 
 namespace WebApi.Controllers {
   [ApiController]
@@ -12,36 +14,43 @@ namespace WebApi.Controllers {
     public ContinentsController(IConnectionFactory connectionFactory) {
       _connectionFactory = connectionFactory;
     }
+
     [HttpPost]
-    public IActionResult PostContinent(string continent) {
+    public IActionResult PostContinent(string continent, string content) {
       try {
         if (!_continents.Contains(continent)) {
           return NotFound("Tattoine?");
         }
+        string message = $"{continent} says \"{content}\"!";
+        var temp = new Message();
+        temp.Content = content;
+        Exchanger.SendMessage(_connectionFactory, message, continent);
 
-        string message = $"{continent} says chipi-chipi chapa-chapa!";
-        return SendMessage(message, continent);
+        return Ok(temp.GetMessage());
       }
       catch (Exception ex) {
         return BadRequest($"Error in PostContinent: {ex.Message}");
       }
     }
 
-    private IActionResult SendMessage(string message, string routingKey) {
+/*    [ApiExplorerSettings(IgnoreApi = true)]
+    public IActionResult SendMessage(string content, string routingKey) {
       try {
         using (var connection = _connectionFactory.CreateConnection()) {
           using (var channel = connection.CreateModel()) {
-            var body = Encoding.UTF8.GetBytes(message);
-            channel.ExchangeDeclare(exchange: "Continent", type: ExchangeType.Direct);
+            var message = new Message();
+            message.Content = content;
+            var body = Encoding.UTF8.GetBytes(message.GetMessage());
+            channel.ExchangeDeclare(exchange: "Continent", type: ExchangeType.Topic);
             channel.BasicPublish(exchange: "Continent", routingKey: $"continent.{routingKey}", body: body);
 
-            return Ok($"Message: {message}");
+            return Ok(message.GetMessage());
           }
         }
       }
       catch (Exception ex) {
         return BadRequest($"Error in SendMessage: {ex.Message}");
       }
-    }
+    }*/
   }
 }

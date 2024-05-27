@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "OrderCancelledReceiver": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
