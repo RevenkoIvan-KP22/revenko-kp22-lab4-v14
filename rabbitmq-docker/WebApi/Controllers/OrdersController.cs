@@ -25,7 +25,7 @@ namespace WebApi.Controllers {
         string message = $"New order of the type {order}.\n\"{content}\"!";
         var temp = new Message();
         temp.Content = content;
-        SendMessage(_connectionFactory, message, order);
+        Exchanger.SendMessage(_connectionFactory, message, order, ':', "order", ExchangeType.Direct);
 
         return Ok(temp.GetMessage());
       }
@@ -41,8 +41,8 @@ namespace WebApi.Controllers {
             var message = new Message();
             message.Content = content;
             var body = Encoding.UTF8.GetBytes(message.GetMessage());
-            channel.ExchangeDeclare(exchange: "Order", type: ExchangeType.Direct);
-            channel.BasicPublish(exchange: "Order", routingKey: $"order:{routingKey}", body: body);
+            channel.ExchangeDeclare(exchange: $"Order", type: ExchangeType.Direct);
+            channel.BasicPublish(exchange: $"Order", routingKey: $"order:{routingKey}", body: body);
           }
         }
       }

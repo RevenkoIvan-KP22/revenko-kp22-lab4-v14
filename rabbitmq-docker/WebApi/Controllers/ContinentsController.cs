@@ -24,7 +24,7 @@ namespace WebApi.Controllers {
         string message = $"{continent} says \"{content}\"!";
         var temp = new Message();
         temp.Content = content;
-        Exchanger.SendMessage(_connectionFactory, message, continent);
+        Exchanger.SendMessage(_connectionFactory, message, continent, '.', "continent", ExchangeType.Topic);
 
         return Ok(temp.GetMessage());
       }

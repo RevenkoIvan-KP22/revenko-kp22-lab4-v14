@@ -31,11 +31,11 @@ namespace Receivers {
       try {
         using (var connection = factory.CreateConnection()) {
           using (var channel = connection.CreateModel()) {
-            channel.ExchangeDeclare("Order", ExchangeType.Direct);
+            channel.ExchangeDeclare("order", ExchangeType.Direct);
             channel.QueueDeclare(queue, true, false, false);
-            channel.QueueBind(queue: queue, exchange: "Order", routingKey: $"order:{rkey}");
+            channel.QueueBind(queue: queue, exchange: "order", routingKey: $"order:{rkey}");
             if (rkey == "complete") {  
-              channel.QueueBind(queue: queue, exchange: "Order", routingKey: "order:cancelled");
+              channel.QueueBind(queue: queue, exchange: "order", routingKey: "order:cancelled");
             }
 
             var Consumer = new EventingBasicConsumer(channel);

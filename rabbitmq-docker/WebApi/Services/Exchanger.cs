@@ -6,15 +6,15 @@ using WebApi.Models;
 
 namespace WebApi.Services {
   public class Exchanger {
-    public static void SendMessage(IConnectionFactory factory, string content, string routingKey) {
+    public static void SendMessage(IConnectionFactory factory, string content, string routingKey, char @char, string exchange, string exchangeType) {
       try {
         using (var connection = factory.CreateConnection()) {
           using (var channel = connection.CreateModel()) {
             var message = new Message();
             message.Content = content;
             var body = Encoding.UTF8.GetBytes(message.GetMessage());
-            channel.ExchangeDeclare(exchange: "Continent", type: ExchangeType.Topic);
-            channel.BasicPublish(exchange: "Continent", routingKey: $"continent.{routingKey}", body: body);
+            channel.ExchangeDeclare(exchange: exchange, type: exchangeType);
+            channel.BasicPublish(exchange: exchange, routingKey: $"{exchange}{@char}{routingKey}", body: body);
           }
         }
       }
